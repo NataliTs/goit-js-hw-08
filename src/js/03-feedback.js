@@ -41,3 +41,23 @@ function populatTextarea() {
     console.log(parsedStorageForm);
   }
 }
+
+// const load = key => {
+//   try {
+//     const serializedState = localStorage.getItem(key);
+//     return serializedState === null ? undefined : JSON.parse(serializedState);
+//     console.log(serializedState);
+//   } catch (error) {
+//     console.error('Get state error: ', error.message);
+//   }
+// };
+
+// function populatTextarea() {
+//   const storageForm = load(LOCALSTORAGE_KEY);
+
+//   if (storageForm) {
+//     email.value = parsedStorageForm.email;
+//     message.value = parsedStorageForm.message;
+//     console.log(parsedStorageForm);
+//   }
+// }
